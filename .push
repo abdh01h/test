@@ -6,3 +6,15 @@ git add .
 git status
 git commit -m 'your message'
 git push -u origin master
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+
+
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/hackerabode/test.git
+git push -u origin main
