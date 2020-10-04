@@ -1,15 +1,5 @@
-
-/*=================================
------------------------------------
-  SolMusic HTML Template
-  Version: 1.0
- ---------------------------------
- =================================*/
-
-
-
 /*----------------------------------------*/
-/* Template default CSS
+/* Main Style
 /*----------------------------------------*/
 
 html,
@@ -17,7 +7,6 @@ body {
 	height: 100%;
 	font-family: "Montserrat", sans-serif;
 	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
 }
 
 h1,
@@ -27,7 +16,7 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	color: #0a183d;
+	color: #1C4F9C
 	font-weight: 600;
 	line-height: 1;
 }
@@ -119,7 +108,7 @@ Helper CSS
 .text-white span,
 .text-white li,
 .text-white a {
-	color: #fff;
+	color: #000;
 }
 
 /*---------------------
@@ -137,7 +126,7 @@ Commom elements
 	padding: 23px 20px;
 	border-radius: 50px;
 	text-transform: uppercase;
-	background: #fc0254;
+	background: #FFAD33;
 	color: #fff;
 	line-height: normal;
 	cursor: pointer;
@@ -149,7 +138,7 @@ Commom elements
 }
 
 .site-btn.sb-c2 {
-	background: #383b70;
+	background: #1C4F9C
 }
 
 /* Preloder */
@@ -161,7 +150,7 @@ Commom elements
 	top: 0;
 	left: 0;
 	z-index: 999999;
-	background: #000;
+	background: #353941;
 }
 
 .loader {
@@ -181,19 +170,19 @@ Commom elements
 	0% {
 		-webkit-transform: rotate(0deg);
 		transform: rotate(0deg);
-		border: 4px solid #f44336;
+		border: 4px solid #1C4F9C;
 		border-left-color: transparent;
 	}
 	50% {
 		-webkit-transform: rotate(180deg);
 		transform: rotate(180deg);
-		border: 4px solid #673ab7;
+		border: 4px solid #1C4F9C;
 		border-left-color: transparent;
 	}
 	100% {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
-		border: 4px solid #f44336;
+		border: 4px solid #1C4F9C;
 		border-left-color: transparent;
 	}
 }
@@ -201,17 +190,17 @@ Commom elements
 @-webkit-keyframes loader {
 	0% {
 		-webkit-transform: rotate(0deg);
-		border: 4px solid #f44336;
+		border: 4px solid #1C4F9C;
 		border-left-color: transparent;
 	}
 	50% {
 		-webkit-transform: rotate(180deg);
-		border: 4px solid #673ab7;
+		border: 4px solid #1C4F9C;
 		border-left-color: transparent;
 	}
 	100% {
 		-webkit-transform: rotate(360deg);
-		border: 4px solid #f44336;
+		border: 4px solid #1C4F9C;
 		border-left-color: transparent;
 	}
 }
@@ -221,9 +210,9 @@ Header section
  ---------------------*/
 
 .header-section {
-	padding-left: 55px;
-	padding-right: 72px;
-	background: #08192d;
+	padding-left: 150px;
+	padding-right: 220px;
+	background: #1C4F9C;
 }
 
 .site-logo {
@@ -254,8 +243,11 @@ Header section
 }
 
 .header-right .user-panel .register {
-	color: #fc0254;
+	background-color: #FFAD33;
+	color: white;
 	margin-right: 0;
+	padding: 15px;
+    border-radius: 60px;
 }
 
 .header-right span {
@@ -283,7 +275,7 @@ Header section
 }
 
 .main-menu li a:hover {
-	color: #fc0254;
+	color: #FFAD33;
 }
 
 .main-menu li:first-child a {
@@ -326,7 +318,7 @@ Header section
 }
 
 .main-menu .sub-menu li a:hover {
-	color: #fc0254;
+	color: #FFAD33;
 }
 
 .slicknav_menu {
@@ -350,21 +342,21 @@ Hero section
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	background: #0a183d;
+	background: #0f0f0f
 }
 
 .hs-item h2 {
 	color: #fff;
-	font-size: 70px;
+	font-size: 50px;
 	margin-bottom: 25px;
-	line-height: 0.9;
+	line-height: 1;
 	position: relative;
 	top: 50px;
 	opacity: 0;
 }
 
 .hs-item h2 span {
-	color: #fc0254;
+	color: #FFAD33;
 }
 
 .hs-item p {
@@ -452,7 +444,7 @@ Hero section
 }
 
 .hero-slider .owl-dots .owl-dot.active {
-	background: #fc0254;
+	background: #FFAD33;
 }
 
 /* ----------------
@@ -469,7 +461,7 @@ How section
  -------------------*/
 
 .how-section {
-	background-color: #0a183d;
+	background-color: #ffffff;
 }
 
 .how-item .hi-icon {
@@ -477,14 +469,14 @@ How section
 	width: 57px;
 	height: 57px;
 	border-radius: 50%;
-	background: #fc0254;
+	background: #FFAD33;
 	margin-bottom: 25px;
 }
 
-.how-item .hi-icon img {
+.how-item .hi-icon i {
 	position: absolute;
-	right: -8px;
-	bottom: 0;
+	right: 13px;
+    bottom: 13px;
 }
 
 .how-item h4 {
@@ -496,30 +488,12 @@ How section
 	opacity: 0.6;
 }
 
-/* ----------------
-Concept section
- -------------------*/
-
-.concept-section p {
-	padding-top: 5px;
-}
-
-.concept-item {
-	text-align: center;
-	padding-top: 35px;
-}
-
-.concept-item img {
-	border-radius: 40px;
-	margin-bottom: 15px;
-}
-
 /* --------------------
 Subscription section
  -----------------------*/
 
 .subscription-section {
-	background: #0a183d;
+	background: #0f0f0f;
 }
 
 .sub-text {
@@ -548,7 +522,7 @@ Subscription section
 
 .sub-list {
 	list-style: none;
-	background: #1c294a;
+	background: #0f0f0f;
 	padding: 70px 15px 50px 155px;
 	border-radius: 42px;
 }
@@ -596,7 +570,7 @@ Responsive
  -------------------*/
 
 .footer-section {
-	background: #0a183d;
+	background: #0f0f0f;
 	padding: 100px 0 85px;
 }
 
