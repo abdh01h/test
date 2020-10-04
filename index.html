@@ -36,16 +36,16 @@
 	</div>
 
 	<!-- Header section -->
-	<header class="header-section clearfix">
+	<header class="header-section clearfix" id="nav">
 		<a href="index.html" class="site-logo">
 			<img src="img/logo.png" alt="">
 		</a>
 		<ul class="main-menu">
-			<li><a href="#!">Home</a></li>
-			<li><a href="#offers">What we offers</a></li>
-			<li><a href="#services">Services</a></li>
-			<li><a href="#!">About Us</a></li>
-			<li><a href="#!">Contact Us</a></li>
+			<li><a href="#" class="nav-link">Home</a></li>
+			<li><a href="#offers" class="nav-link">What we offers</a></li>
+			<li><a href="#services" class="nav-link">Services</a></li>
+			<li><a href="#about" class="nav-link">About Us</a></li>
+			<li><a href="#contact" class="nav-link">Contact Us</a></li>
 		</ul>
 	</header>
 	<!-- Header section end -->
@@ -61,7 +61,7 @@
 								<h2><span>We're</span>
 									Trusted IT solution provider for the world class E-commerce business
 								</h2>
-								<a href="#" class="site-btn">Contact Us Now</a>
+								<a href="#contact" class="site-btn">Contact Us Now</a>
 							</div>
 						</div>
 						<div class="col-lg-6">
@@ -76,11 +76,11 @@
 	</section>
 	<!-- Hero section end -->
 
-	<!-- How section -->
-	<section class="how-section spad set-bg">
+	<!-- What section -->
+	<section class="how-section spad set-bg" id="offers">
 		<div class="container text-white">
 			<div class="section-title">
-				<h2 id="offers">We Offers</h2>
+				<h2>We Offers</h2>
 			</div>
 			<div class="row">
 				<div class="col-md-3">
@@ -118,18 +118,17 @@
 			</div>
 		</div>
 	</section>
-	<!-- How section end -->
+	<!-- What section end -->
 
-	<!-- Subscription section -->
-	<section class="subscription-section spad">
+	<!-- Services section -->
+	<section class="subscription-section spad" id="services">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="sub-text">
-						<h2>Subscription from $15/month</h2>
-						<h3>Start a free trial now</h3>
+						<h2>Our Services</h2>
 						<p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						<a href="#" class="site-btn">Try it now</a>
+						<a href="#contact" class="site-btn">Contact Us Now</a>
 					</div>
 				</div>
 				<div class="col-lg-6">
@@ -145,19 +144,16 @@
 			</div>
 		</div>
 	</section>
-	<!-- Subscription section end -->
+	<!-- Services section end -->
 
-	<!-- Premium section end -->
-	<section class="premium-section spad">
+	<!-- About us section end -->
+	<section class="premium-section spad" id="about">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6">
+				<div class="col-lg-12">
 					<div class="section-title">
-						<h2>Why go Premium</h2>
+						<h2>About Us</h2>
 					</div>
-				</div>
-				<div class="col-lg-6">
-					<p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				</div>
 			</div>
 			<div class="row">
@@ -192,43 +188,30 @@
 			</div>
 		</div>
 	</section>
-	<!-- Premium section end -->
+	<!-- About us section end -->
 
 	<!-- Footer section -->
-	<footer class="footer-section">
+	<footer class="footer-section" id="contact">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-6 col-lg-7 order-lg-2">
 					<div class="row">
-						<div class="col-sm-4">
+						<div class="col-sm-12">
 							<div class="footer-widget">
-								<h2>About us</h2>
+								<h2>Contact Us through</h2>
 								<ul>
-									<li><a href="">Our Story</a></li>
-									<li><a href="">Sol Music Blog</a></li>
-									<li><a href="">History</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="footer-widget">
-								<h2>Products</h2>
-								<ul>
-									<li><a href="">Music</a></li>
-									<li><a href="">Subscription</a></li>
-									<li><a href="">Custom Music</a></li>
-									<li><a href="">Footage</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="footer-widget">
-								<h2>Playlists</h2>
-								<ul>
-									<li><a href="">Newsletter</a></li>
-									<li><a href="">Careers</a></li>
-									<li><a href="">Press</a></li>
-									<li><a href="">Contact</a></li>
+									<li><a href="">
+										<i class="fas fa-envelope"></i>
+										Email
+									</a></li>
+									<li><a href="">
+										<i class="fab fa-whatsapp"></i>
+										WhatsApp
+									</a></li>
+									<li><a href="">
+										<i class="fab fa-facebook"></i>
+										Facebook
+									</a></li>
 								</ul>
 							</div>
 						</div>
@@ -238,13 +221,6 @@
 					<img src="img/logo.png" alt="">
 					<div class="copyright">
 						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
-					</div>
-					<div class="social-links">
-						<a href=""><i class="fa fa-instagram"></i></a>
-						<a href=""><i class="fa fa-pinterest"></i></a>
-						<a href=""><i class="fa fa-facebook"></i></a>
-						<a href=""><i class="fa fa-twitter"></i></a>
-						<a href=""><i class="fa fa-youtube"></i></a>
 					</div>
 				</div>
 			</div>
@@ -259,6 +235,18 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/mixitup.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="jquery.localscroll.js"></script> 
+
+	<script>
+		$('.nav-link').click(function(e){
+			e.preventDefault();
+			var target = $($(this).attr('href'));
+			if(target.length){
+				var scrollTo = target.offset().top;
+				$('body, html').animate({scrollTop: scrollTo+'px'}, 600);
+			}
+		});
+	</script>
 
 	</body>
 </html>

@@ -579,7 +579,7 @@ Responsive
 }
 
 .footer-widget h2 {
-	font-size: 16px;
+	font-size: 25px;
 	color: #fff;
 	text-transform: uppercase;
 	margin-bottom: 30px;
@@ -591,8 +591,8 @@ Responsive
 
 .footer-widget ul li a {
 	display: inline-block;
-	color: #6a7080;
-	font-size: 14px;
+	color: #fff;
+	font-size: 18px;
 	margin-bottom: 10px;
 }
 
@@ -600,7 +600,7 @@ Responsive
 	font-size: 11px;
 	text-transform: uppercase;
 	font-weight: 500;
-	color: #505565;
+	color: #afafaf;
 	padding: 10px 0 25px;
 }
 
@@ -1489,6 +1489,7 @@ Responsive
 		margin-bottom: 50px;
 	}
 	.footer-widget {
+		text-align: center;
 		margin-bottom: 40px;
 	}
 	.category-section .section-title,
@@ -1628,6 +1629,7 @@ Responsive
 		margin-bottom: 50px;
 	}
 	.footer-widget {
+		text-align: center;
 		margin-bottom: 40px;
 	}
 	.category-section .section-title,
