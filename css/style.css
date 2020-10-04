@@ -533,8 +533,11 @@ Subscription section
 	margin-bottom: 25px;
 }
 
-.sub-list li img {
-	padding-right: 28px;
+.sub-list li i {
+	margin-right: 20px;
+	background-color: #FFAD33;
+	padding: 5px;
+	border-radius: 50%;
 }
 
 /* ----------------
