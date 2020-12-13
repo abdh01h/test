@@ -4,7 +4,7 @@ git config --global user.name "Your Name"
 git clone https://github.com/abdullah-01/Myportfolio.git
 git add .
 git status
-git commit -m 'your message'
+git commit -m "your message"
 git push -u origin master
 ------------------------------------------------------------------------------
 ------------------------------------------------------------------------------
